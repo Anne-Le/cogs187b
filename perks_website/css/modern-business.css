@@ -27,3 +27,7 @@ body {
 .logo{
   max-height: 45px;
 }
+
+p{
+  font-family: 'Roboto', sans-serif;
+}
