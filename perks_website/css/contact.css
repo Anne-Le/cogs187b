@@ -6,6 +6,12 @@
 	display: inline;
 }
 
+.brown-bg{
+	background-color: #4D3A1C;
+	color:white;
+	padding: 20px;
+	text-transform: uppercase;
+}
 
 
 .card-image{
@@ -37,5 +43,5 @@
 }
 
 .brown-font{
-	color: #8B4513;
+	color: #4D3A1C;
 }
