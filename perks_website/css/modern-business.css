@@ -31,3 +31,9 @@ body {
 p{
   font-family: 'Roboto', sans-serif;
 }
+
+.footer-text{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
