@@ -45,3 +45,17 @@
 .brown-font{
 	color: #4D3A1C;
 }
+.name{
+  float: left;
+  padding: 0px;
+
+}
+.email{
+  float: right;
+  padding:0px;
+   
+}
+
+.clearfix{
+    clear:both
+}
