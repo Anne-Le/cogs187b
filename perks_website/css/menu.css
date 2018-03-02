@@ -17,9 +17,11 @@
     padding-top: 20px;
 }
 
+
 .col-2, .col-6, .col-8, .col-4 {
     background-color: #8D816E;
     color: white;
+    border-bottom: 1px solid #ccc;
 }
 
 .row {
