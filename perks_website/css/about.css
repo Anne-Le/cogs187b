@@ -1,17 +1,46 @@
-body {
-	text-align: center;
-}
 
-h1, h2 {
-	text-align: center;
-}
 
 p {
-	margin-top: 5em;
-	margin-bottom: 5em;
+	padding-top: 1%;
+	padding-bottom: 3%;
 }
 
 .row{
-	margin-left: 5% !important;
-	margin-right: 5% !important;
+	margin-left: 1% !important;
+	margin-right: 2% !important;
+}
+
+.brown-bg{
+	background-color: #4D3A1C;
+	color: white;
+	padding: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-transform: uppercase;
+}
+
+.h2-brown-bg {
+	background-color: #4D3A1C;
+	color:white;
+	padding: 10px;
+	margin-left: 3%;
+	margin-right: 2%;
+}
+
+.h2-brown-bg-2 {
+	float: middle;
+	background-color: #4D3A1C;
+	color: white;
+	padding: 10px;
+	width: 100%;
+	margin-left: 3%;
+	margin-right: 5%;
+}
+
+#centered-text{
+	text-align: center;
+}
+
+#inline-content{
+	display: inline;
 }
