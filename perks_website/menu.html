@@ -8,7 +8,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>Menu - Perk's Coffee Shop</title>
+
+    <!-- Menu CSS -->
+    <link href="css/menu.css" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -55,63 +58,554 @@
       </div>
     </nav>
 
+    
     <!-- Page Content -->
     <div class="container">
 
-      <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Services
-        <small>Subheading</small>
-      </h1>
+      <!-- Page Heading (minus Breadcrumbs)-->
+      <h1 class="mt-4 mb-3 brown-bg" id="centered-text">Our Menu</h1>
 
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="index.html">Home</a>
-        </li>
-        <li class="breadcrumb-item active">Services</li>
-      </ol>
+      <!-- COFFEE SECTION -->
+      <div class="containerImage">
+        <img src="images\MENU\PerksCoffeeShop-MenuCards-Coffee.png" alt="Coffee" style="width:100%;">
+      </div>
 
-      <!-- Image Header -->
-      <img class="img-fluid rounded mb-4" src="http://placehold.it/1200x300" alt="">
+      <!--<table class="table table-sm" >
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">small</th>
+              <th scope="col">medium</th>
+              <th scope="col">large</th>
+            </tr>
+          </thead>
 
-      <!-- Marketing Icons Section -->
-      <div class="row">
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+          <tbody>
+            <tr>
+              <th scope="row">ESPRESSO</th>
+              <td>1<sup>00</sup></td>
+              <td>2<sup>00</sup></td>
+              <td>3<sup>00</sup></td>
+            </tr>
+            <tr>
+              <th scope="row">ESPRESSO MACCHIATO</th>
+              <td></td>
+              <td>2<sup>30</sup></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">AMERICANO</th>
+              <td>1<sup>00</sup></td>
+              <td>2<sup>00</sup></td>
+              <td>3<sup>00</sup></td>
+            </tr>
+            <tr>
+              <th scope="row">ESPRESSO CON PANNA</th>
+              <td>1<sup>00</sup></td>
+              <td>2<sup>00</sup></td>
+              <td>3<sup>00</sup></td>
+            </tr>
+          </tbody>
+        </table>-->
+
+
+      <!-- grid version (solve container issue) -->
+      <!-- Coffee Container Start -->
+      <div class="container">
+
+        <div class="row rowOuter">
+          <div class="col-sm-12">
+            </br>
+            <h5 class="white-background">e s p r e s s o</h4>
+            <div class="rowInner">
+            <!--Esppresso Family-->
+            <div class="row">
+              <div class="col-6"></div> 
+              <div class="col-2">1</div>
+              <div class="col-2">2</div>
+              <div class="col-2">3</div>
             </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
+            <div class="row">
+              <div class="col-6">Espresso</div> 
+              <div class="col-2">$1<sup>00</sup></div>
+              <div class="col-2">$2<sup>00</sup></div>
+              <div class="col-2">$3<sup>00</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Espresso Macchiato</div> 
+              <div class="col-2"></div>
+              <div class="col-2">$2<sup>30</sup></div>
+              <div class="col-2"></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Americano</div> 
+              <div class="col-2">$1<sup>00</sup></div>
+              <div class="col-2">$2<sup>00</sup></div>
+              <div class="col-2">$3<sup>00</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Espresso Con Panna</div> 
+              <div class="col-2">$1<sup>00</sup></div>
+              <div class="col-2">$2<sup>00</sup></div>
+              <div class="col-2">$3<sup>00</sup></div>
+            </div>
+            </br>
+            <!--Cappucino family -->
+            <div class="row">
+              <div class="col-6"></div> 
+              <div class="col-2">S</div>
+              <div class="col-2">M</div>
+              <div class="col-2">L</div>
+            </div>
+            <div class="row">
+              <div class="col-6">Cappuccino</div> 
+              <div class="col-2">$3<sup>00</sup></div>
+              <div class="col-2">$3<sup>50</sup></div>
+              <div class="col-2">$4<sup>00</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Cubano</div> 
+              <div class="col-2">$3<sup>85</sup></div>
+              <div class="col-2">$4<sup>35</sup></div>
+              <div class="col-2">$4<sup>85</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Cafe Cacao</div> 
+              <div class="col-2">$3<sup>85</sup></div>
+              <div class="col-2">$4<sup>35</sup></div>
+              <div class="col-2">$4<sup>85</sup></div>
+            </div>
+
+            </br>
+            <!--Latte Family-->
+            <div class="row">
+              <div class="col-6"></div> 
+              <div class="col-2">S</div>
+              <div class="col-2">M</div>
+              <div class="col-2">L</div>
+            </div>
+            <div class="row">
+              <div class="col-6">Latte</div> 
+              <div class="col-2">$3<sup>25</sup></div>
+              <div class="col-2">$3<sup>75</sup></div>
+              <div class="col-2">$4<sup>25</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Caramel Macchiato</div> 
+              <div class="col-2">$3<sup>75</sup></div>
+              <div class="col-2">$4<sup>25</sup></div>
+              <div class="col-2">$4<sup>75</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Mocha</div> 
+              <div class="col-2">$3<sup>40</sup></div>
+              <div class="col-2">$3<sup>90</sup></div>
+              <div class="col-2">$4<sup>40</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">White Mocha</div> 
+              <div class="col-2">$3<sup>40</sup></div>
+              <div class="col-2">$3<sup>90</sup></div>
+              <div class="col-2">$4<sup>40</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Spicy Mocha</div> 
+              <div class="col-2">$4<sup>15</sup></div>
+              <div class="col-2">$4<sup>65</sup></div>
+              <div class="col-2">$5<sup>15</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Abuela Mocha</div> 
+              <div class="col-2">$4<sup>15</sup></div>
+              <div class="col-2">$4<sup>65</sup></div>
+              <div class="col-2">$5<sup>15</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Nutella Latte</div> 
+              <div class="col-2">$3<sup>75</sup></div>
+              <div class="col-2">$4<sup>25</sup></div>
+              <div class="col-2">$4<sup>75</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Dirty Chai Latte</div> 
+              <div class="col-2">$4<sup>15</sup></div>
+              <div class="col-2">$4<sup>65</sup></div>
+              <div class="col-2">$5<sup>15</sup></div>
+            </div>
+            
+          </div> <!--end of row inner-->
+        </div> <!--end of col-sm-12-->
+
+        <!--drip specific-->
+        <div class="col-sm-12">
+          <h5 class="white-background">d r i p</h4>
+          <div class="rowInner">
+            <div class="row">
+              <div class="col-6"></div> 
+              <div class="col-2">S</div>
+              <div class="col-2">M</div>
+              <div class="col-2">L</div>
+            </div>
+            <div class="row">
+              <div class="col-6">Drip Coffee</div> 
+              <div class="col-2">$1<sup>50</sup></div>
+              <div class="col-2">$1<sup>75</sup></div>
+              <div class="col-2">$2<sup>00</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Cafe au Lait</div> 
+              <div class="col-2">$2<sup>00</sup></div>
+              <div class="col-2">$2<sup>25</sup></div>
+              <div class="col-2">$2<sup>50</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Hammerhead</div> 
+              <div class="col-2">$2<sup>75</sup></div>
+              <div class="col-2">$3<sup>25</sup></div>
+              <div class="col-2">$3<sup>75</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Cold Brew</div> 
+              <div class="col-2">$2<sup>25</sup></div>
+              <div class="col-2">$2<sup>75</sup></div>
+              <div class="col-2">$3<sup>25</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Cold Brew Hammerhead</div> 
+              <div class="col-2">$3<sup>25</sup></div>
+              <div class="col-2">$3<sup>75</sup></div>
+              <div class="col-2">$4<sup>00</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Pour Over</div> 
+              <div class="col-2">$3<sup>25</sup></div>
+              <div class="col-2"></div>
+              <div class="col-2"></div>
+            </div>
+          </div><!--end row inner-->
+        </div> <!--end col-sm-12-->
+
+        <!--Add ons-->
+        <div class="col-sm-12">
+          <h5 class="white-background">A d d - O n</h4>
+          <div class="rowInner">
+            <div class="row">
+              <div class="col-6">Add Shot</div> 
+              <div class="col-2">$1<sup>00</sup></div>
+              <div class="col-2"></div>
+              <div class="col-2"></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Add Syrup</div> 
+              <div class="col-2">50<sup>¢</sup></div>
+              <div class="col-2"></div>
+              <div class="col-2"></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Non-Dairy</div> 
+              <div class="col-2">50<sup>¢</sup></div>
+              <div class="col-2"></div>
+              <div class="col-2"></div>
+            </div>
+          </div><!--end row inner-->
+        </div> <!--end col-sm-12-->
+      </div> <!--end of row outer-->
+      </div> <!--end of coffee section container-->
+      </br>
+
+      <!--<div class="containerImage">
+        <img src="images\MENU\PerksCoffeeShop-MenuCards-Tea.png" alt="Tea" style="width:100%;">
+      </div>-->
+
+      <!-- NON-COFFEE SECTION -->
+
+      <div class="containerImage">
+        <img src="images\MENU\PerksCoffeeShop-MenuCards-Non-Coffee.png" alt="Non-Coffee" style="width:100%;">
+      </div>
+      <div class="container">
+        <div class="row rowOuter">
+        <!--tea section-->
+        <div class="col-sm-12">
+          </br>
+          <h5 class="white-background">t e a</h4>
+          <div class="rowInner">
+            <div class="row">
+              <div class="col-6"></div> 
+              <div class="col-2">S</div>
+              <div class="col-2">M</div>
+              <div class="col-2">L</div>
+            </div>
+            <div class="row">
+              <div class="col-6">Tea <sub>(see list)</sub></div> 
+              <div class="col-2">$2<sup>00</sup></div>
+              <div class="col-2">$2<sup>25</sup></div>
+              <div class="col-2">$2<sup>50</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Cafe au Lait</div> 
+              <div class="col-2">$2<sup>50</sup></div>
+              <div class="col-2">$2<sup>75</sup></div>
+              <div class="col-2">$3<sup>00</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Green Tea Latte</div> 
+              <div class="col-2">$3<sup>50</sup></div>
+              <div class="col-2">$3<sup>75</sup></div>
+              <div class="col-2">$4<sup>00</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Chai Tea Latte</div> 
+              <div class="col-2">$3<sup>35</sup></div>
+              <div class="col-2">$3<sup>85</sup></div>
+              <div class="col-2">$4<sup>35</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Iced Tea Lemonade</div> 
+              <div class="col-2">$2<sup>25</sup></div>
+              <div class="col-2">$2<sup>75</sup></div>
+              <div class="col-2">$3<sup>25</sup></div>
+            </div>
+          </div><!--end row inner-->
+          </div> <!--end col-sm-12-->
+
+          <!--Chocolate-->
+          <div class="col-sm-12">
+          </br>
+          <h5 class="white-background">h o t - c h o c o l a t e</h4>
+          <div class="rowInner">
+            <div class="row">
+              <div class="col-6"></div> 
+              <div class="col-2">S</div>
+              <div class="col-2">M</div>
+              <div class="col-2">L</div>
+            </div>
+            <div class="row">
+              <div class="col-6">Regular</div> 
+              <div class="col-2">$2<sup>75</sup></div>
+              <div class="col-2">$3<sup>25</sup></div>
+              <div class="col-2">$3<sup>50</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">White</div> 
+              <div class="col-2">$2<sup>75</sup></div>
+              <div class="col-2">$3<sup>25</sup></div>
+              <div class="col-2">$3<sup>50</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Nutella</div> 
+              <div class="col-2">$3<sup>50</sup></div>
+              <div class="col-2">$3<sup>75</sup></div>
+              <div class="col-2">$4<sup>00</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Spicy</div> 
+              <div class="col-2">$3<sup>50</sup></div>
+              <div class="col-2">$3<sup>75</sup></div>
+              <div class="col-2">$4<sup>00</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Abuela</div> 
+              <div class="col-2">$3<sup>50</sup></div>
+              <div class="col-2">$3<sup>75</sup></div>
+              <div class="col-2">$4<sup>00</sup></div>
+            </div>
+          </div><!--end row inner-->
+          </div><!--end col-sm-12-->
+
+          <!-- col miscellaneous drinks -->
+          <div class="col-sm-12">
+          </br>
+          <h5 class="white-background">L e t ' s &nbsp C h i l l</h4>
+          <div class="rowInner">
+            <div class="row">
+              <div class="col-6"></div> 
+              <div class="col-2">S</div>
+              <div class="col-2">M</div>
+              <div class="col-2">L</div>
+            </div>
+            <div class="row">
+              <div class="col-6">Lemonade</div> 
+              <div class="col-2">$2<sup>25</sup></div>
+              <div class="col-2">$2<sup>75</sup></div>
+              <div class="col-2">$3<sup>25</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Flavored Blended Coffee</div> 
+              <div class="col-2">$3<sup>50</sup></div>
+              <div class="col-2">$4<sup>00</sup></div>
+              <div class="col-2">$4<sup>50</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Italian Soda</div> 
+              <div class="col-2"></div>
+              <div class="col-2"></div>
+              <div class="col-2">$2<sup>75</sup></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Iced Vietnamese</div> 
+              <div class="col-2">$3<sup>75</sup></div>
+              <div class="col-2"></div>
+              <div class="col-2"></div>
+            </div>
+            <div class="row">
+              <div class="col-6">Affogatto</div> 
+              <div class="col-2">$2<sup>00</sup></div>
+              <div class="col-2">$3<sup>00</sup></div>
+              <div class="col-2"></div>
+            </div>
+          </div><!--end row inner-->
+          </div><!--end col-sm-12-->
+        </div> <!--end of rowOuter-->
+      </div> <!--end of non-coffee section container -->
+      </br>
+
+      <!-- Pastries Section -->
+      <div class="containerImage">
+        <img src="images\MENU\PerksCoffeeShop-MenuCards-Pastries.png" alt="Coffee" style="width:100%;">
+      </div>
+
+      <div class="container">
+        <div class="row rowOuter">
+        <!--pastries container section-->
+        <div class="col-sm-12">
+          </br>
+          <h5 class="white-background">m u f f i n s & p a s t r i e s</h4>
+          <div class="rowInner">
+            <div class="row">
+              <div class="col-8">Breads</div> 
+              <div class="col-4">$1<sup>99</sup>/slice</div>
+            </div>
+            <div class="row">
+              <div class="col-8">Muffins</div> 
+              <div class="col-4">$1<sup>99</sup> each</div>
+            </div>
+            <div class="row">
+              <div class="col-8">Scones</div> 
+              <div class="col-4">$1<sup>99</sup> each</div>
+            </div>
+            <div class="row">
+              <div class="col-8">Croissants</div> 
+              <div class="col-4">$1<sup>99</sup> each</div>
+            </div>
+            <div class="row">
+              <div class="col-8">Danishes</div> 
+              <div class="col-4">$1<sup>99</sup> each</div>
+            </div>
+            <div class="row">
+              <div class="col-8">Turnovers</div> 
+              <div class="col-4">$1<sup>99</sup> each</div>
+            </div>
+            <div class="row">
+              <div class="col-8">Donuts</div> 
+              <div class="col-4">$1<sup>49</sup> each</div>
+            </div>
+          </div><!--end row inner-->
+          </div> <!--end col-sm-12-->
+
+          <!--Chocolate-->
+          <div class="col-sm-12">
+          </br>
+          <h5 class="white-background">s w e e t s & t r e a t s</h4>
+          <div class="rowInner">
+            <div class="row">
+              <div class="col-8">Bars</div> 
+              <div class="col-4">$1<sup>99</sup> each</div>
+            </div>
+            <div class="row">
+              <div class="col-8">Cookies</div> 
+              <div class="col-4">$1<sup>99</sup> each</div>
+            </div>
+            <div class="row">
+              <div class="col-8">brownies</div> 
+              <div class="col-4">$1<sup>99</sup> each</div>
+            </div>
+            <div class="row">
+              <div class="col-8">Bagels</div> 
+              <div class="col-4">$1<sup>49</sup> each</div>
+            </div>
+          </div><!--end row inner-->
+          </div><!--end col-sm-12-->
+        </div> <!--end of rowOuter-->
+      </div>
+      <!--accordian version
+      <div id="accordion">
+        <!--Coffee Card
+        <div class="card">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <img class="card-img" src="images\MENU\PerksCoffeeShop-MenuCards-Coffee.png" alt="Card image">
+              </button>
+            </h5>
+          <!--</div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-6">coffee 1 hype</br>
+                  coffee 1 hype</br>
+                </div>
+                <div class="col-sm-6">coffee 2 hai</div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
+
+        <!-- Tea Card 
+        <div class="card">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <img class="card-img" src="images\MENU\PerksCoffeeShop-MenuCards-Tea.png" alt="Card image">
+              </button>
+            </h5>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
+                <div class="row">
+                  <div class="col-sm-6">tea 1 hype</div>
+                  <div class="col-sm-6">tea 2 hai</div>
+                </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Card Title</h4>
+
+        <!-- Breakfast 
+        <div class="card">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <img class="card-img" src="images\MENU\PerksCoffeeShop-MenuCards-Breakfast.png" alt="Card image">
+              </button>
+            </h5>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More</a>
+                <div class="row">
+                  <div class="col-sm-6">breakfast 1 hype</div>
+                  <div class="col-sm-6">breakfast 2 hai</div>
+                </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- /.row -->
+
+      <!-- Lunch 
+      <div class="card">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <img class="card-img" src="images\MENU\PerksCoffeeShop-MenuCards-Lunch.png" alt="Card image">
+          </button>
+        </h5>
+      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+        <div class="card-body">
+            <div class="row">
+              <div class="col-sm-6">lunch 1 hype</div>
+              <div class="col-sm-6">lunch 2 hai</div>
+            </div>
+        </div>
+      </div>
+     </div>
+    </div>
+    <!--/.accordian version -->
 
     </div>
+    </br>
     <!-- /.container -->
 
     <!-- Footer -->
