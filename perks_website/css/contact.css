@@ -5,3 +5,43 @@
 #inline-content{
 	display: inline;
 }
+
+.brown-bg{
+	background-color: #4D3A1C;
+	color:white;
+	padding: 20px;
+	text-transform: uppercase;
+}
+
+
+.card-image{
+  width: auto;
+  height: 325px;
+}
+
+
+.thumbnail {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-caption{
+  font-family: 'Scope One', serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 15px 30px 10px 30px;
+  border: white 2.5px solid;
+  color:white;
+}
+
+.brown-font{
+	color: #4D3A1C;
+}

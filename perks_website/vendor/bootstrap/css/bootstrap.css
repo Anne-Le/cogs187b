@@ -168,7 +168,7 @@ a {
 }
 
 a:hover {
-  color: #0056b3;
+  color: #8B4513;
   text-decoration: underline;
 }
 
@@ -604,6 +604,7 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
   justify-content: center;
+  width: 100%;
 }
 
 .no-gutters {
