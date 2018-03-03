@@ -59,3 +59,12 @@
 .clearfix{
     clear:both
 }
+
+.white{
+  color: white;
+}
+
+.perky-footer{
+  padding-top: 15px;
+  width: 80%;
+}
