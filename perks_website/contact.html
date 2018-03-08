@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Contact Us</title>
+    <title>Contact Us - Perks Coffee Shop</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -61,27 +61,34 @@
 
       <!-- Page Heading/Breadcrumbs -->
       <h1 class="mt-4 mb-3 brown-bg" id="centered-text">Contact Us</h1>
-
+      <h4 id="centered-text">Please contact us using the form below</h4><br>
       <!-- Contact Form -->
       <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
       <div class="row">
-        <div class="col-lg-8 mb-4">
-          <h4 id="centered-text">Please contact us using the form below</h2><br>
-          <form name="sentMessage" id="contactForm" novalidate>
-            <div class="control-group form-group" id="inline-content">
-              <div class="controls">
-                <label>Name</label>
-                <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-                <p class="help-block"></p>
-              </div>
-            </div>
 
-            <div class="control-group form-group">
-              <div class="controls" id="inline-content">
-                <label>Email</label>
-                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+        <div class="col-lg-8 mb-4">
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="control-group form-group">
+                <div class="controls">
+                  <div class=" name col-lg-5">
+                    <label>Name</label>
+                    <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                    <p class="help-block"></p>
+                  </div>
+                </div>
               </div>
-            </div>
+
+              <div class="control-group form-group">
+                <div class="controls">
+                  <div class="email col-lg-5">
+                    <label>Email</label>
+                    <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                  </div>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+
+
             <div class="control-group form-group">
               <div class="controls">
                 <label>Message</label>
@@ -93,21 +100,38 @@
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
-
+        </div>
       </div>
       <!-- /.row -->
 
     </div>
     <!-- /.container -->
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
+    <footer class="py-3 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
-      </div>
+        <div class="row footer">
+          <div class="white col-sm-4 text-center location">
+            <h4>Location</h4>
+              <p>
+                9500 Gilman Dr</br>
+                La Jolla, CA 92093</br>
+                (858) 822-7760
+              </p>
+          </div>
+        </br>
+          </br>
+          <div class="white col-sm-4 text-center hours">
+            <h4>Store Hours</h4>
+              <p>MON - THURS • 7AM - 7PM</p>
+              <p>FRI • 7AM - 6PM</p>
+              <p>SAT - SUN • 11AM - 4PM</p>
+          </div>
+          <div class="white col-sm-4 text-center">
+            <img class="perky-footer" src="images/talking_perky.png">
+          </div>
+        </div>
       <!-- /.container -->
     </footer>
-
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

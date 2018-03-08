@@ -3,7 +3,7 @@
 }
 
 .home-img-card{
-  width: auto;
+  width: 100%;
   height: 325px;
 }
 
@@ -26,6 +26,23 @@
   text-transform: uppercase;
   padding: 10px 30px 10px 30px;
   border: white 2.5px solid;
+}
+
+.home-about{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.home-about-title{
+  color: #6BA753;
+}
+
+.drink-of-month{
+  width: 100%;
+}
+
+p{
+  margin-bottom: 0px !important;
 }
 
 @media (max-width: 450px){

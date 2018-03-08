@@ -168,7 +168,7 @@ a {
 }
 
 a:hover {
-  color: #8B4513;
+  color: #4D3A1C;
   text-decoration: underline;
 }
 
@@ -601,8 +601,6 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
   justify-content: center;
   width: 100%;
 }
@@ -6049,13 +6047,16 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
+  bottom: 15px;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
   text-align: center;
+  /* top: 50%;
+  transform: translateY(-50%); */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .align-baseline {
