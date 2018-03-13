@@ -68,28 +68,26 @@
     <div class="container">
           <br>
           <div class="row">
-            <div class="col-sm-4 mb-4">
+            <div class="col-sm-12 col-md-6 mb-4">
               <a href="PerksToGo.pdf">
-                <img class="card-image" src="images/catering-menu.png">
-                <div class="caption">
+                <img class="thumbnail image-responsive" src="images/catering-menu.png">
+                <div>
                     <p class="card-caption">Menu</p>
                 </div>
               </a>
             </div>
-            <div class="col-sm-4 mb-4">
-              <a href="contact.html">
-                <img class="card-image" src="images/catering-inquire.png">
-                <div class="caption">
+            <div class="col-sm-12 col-md-6  mb-4">
+                <img class="thumbnail image-responsive" src="images/catering-inquire.png" onclick="form_show()">
+                <div>
                     <p class="card-caption">Inquiries</p>
                 </div>
-              </a>
             </div>
           </div>
         </div>
 
    <br>
     <div class="container">
-      <h2 class="brown-font" id="centered-text">FAQ</h2>
+      <h2 class="brown-font" id="centered-text">Commonly Asked Questions</h2>
       <div class="mb-4" id="accordion" role="tablist" aria-multiselectable="true">
         <div class="card">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -137,6 +135,39 @@
     </div>
   </div>
 
+  <!-- Inquiry form modal-->
+  <div class="container" id="inquiry-form">  
+  <form action="" method="post">
+    <h3>Tell us about your event!</h3>
+    <h4>Contact us for custom quote</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+    <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
+  </form>
+</div>
+
+<script>
+  function form_show(){
+  var modal = getElementById('inquiry-form');
+}
+
+</script>
 
     </div>
     <!-- /.container -->
