@@ -13,18 +13,16 @@
 	text-transform: uppercase;
 }
 
-<<<<<<< HEAD
 .thumbnail{
   position: relative;
   text-align: center;
   color: white;
   float: none;
   width: auto;
-=======
+}
 
 .card-image{
   width: 100%;
->>>>>>> 865572f4d3b1611074869c6df4869c8f546aaedc
   height: 325px;
   align-content: center;
   display: block;
@@ -73,7 +71,7 @@
   color: white;
 }
 
-.contact-image{
+.con_image{
 	width: 100%;
 	padding-bottom: 25px;
 }
@@ -84,22 +82,22 @@
 }
 
 .contact-form{
-	padding-top: 25px;
 	justify-content: flex-start;
+	width: 95%;
+}
+
+.contact-title{
+	padding-top: 15px;
+	padding-bottom: 10px;
 }
 
 .map{
 	padding-left: 15px;
 	padding-right: 15px;
+	padding-bottom: 20px;
 }
 
 .perky-footer{
   padding-top: 15px;
   width: 80%;
 }
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 865572f4d3b1611074869c6df4869c8f546aaedc
