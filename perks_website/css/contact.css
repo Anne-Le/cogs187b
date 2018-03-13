@@ -13,33 +13,32 @@
 	text-transform: uppercase;
 }
 
-
-.card-image{
+.thumbnail{
+  position: relative;
+  text-align: center;
+  color: white;
+  float: none;
   width: auto;
   height: 325px;
+  align-content: center;
+  display: block;
+  margin: auto;
 }
 
-
-.thumbnail {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.caption {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .card-caption{
   font-family: 'Scope One', serif;
   font-size: 30px;
   text-transform: uppercase;
-  padding: 15px 30px 10px 30px;
+  padding: 5% 8% 5% 8%;
   border: white 2.5px solid;
   color:white;
+
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .brown-font{
@@ -68,3 +67,6 @@
   padding-top: 15px;
   width: 80%;
 }
+
+
+
