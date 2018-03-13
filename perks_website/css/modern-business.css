@@ -30,10 +30,22 @@ body {
 
 p{
   font-family: 'Roboto', sans-serif;
+  margin-bottom: 0px !important;
 }
 
-.footer-text{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+.location{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.hours{
+  padding-top: 15px;
+}
+
+
+.perky-footer{
+  padding-top: 15px;
+  width: 50%;
 }
