@@ -19,6 +19,10 @@
   height: 325px;
 }
 
+.title{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
 
 .thumbnail {
     position: relative;
@@ -62,6 +66,21 @@
 
 .white{
   color: white;
+}
+
+.contact-image{
+	width: 85%;
+	height: auto;
+}
+
+.contact-form{
+	padding-top: 25px;
+	justify-content: flex-start;
+}
+
+.map{
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .perky-footer{
