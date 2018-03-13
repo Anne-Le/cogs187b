@@ -69,8 +69,13 @@
 }
 
 .contact-image{
-	width: 85%;
-	height: auto;
+	width: 100%;
+	padding-bottom: 25px;
+}
+
+.contact-text{
+	padding-right: 50px;
+	padding-left: 50px;
 }
 
 .contact-form{
