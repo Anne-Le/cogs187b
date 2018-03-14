@@ -1,11 +1,39 @@
 
-
 p {
 	padding-top: 1%;
 	padding-bottom: 3%;
 	padding-left: 10%;
 	padding-right: 10%;
 
+}
+
+#workers {
+	margin-left: 15%;
+	width: auto;
+}
+
+#card-img-1 {
+	width: 83%;
+	height: auto;
+	margin-left: 1%;
+	float: right;
+}
+
+#card-img-2 {
+	width: 83%;
+	height: auto;
+	margin-right: 1%;
+	float: left;
+}
+
+.customers1 {
+	text-align: left;
+	margin-left: 15% !important;
+}
+
+.customers2 {
+	text-align: left;
+	margin-right: 15% !important;
 }
 
 .row{
@@ -27,7 +55,7 @@ p {
 	color:white;
 	padding: 10px;
 	margin-left: 10%;
-	margin-right: 10%;
+	margin-right: 9%;
 }
 
 
@@ -37,7 +65,7 @@ p {
 	color: white;
 	padding: 10px;
 	width: 100%;
-	margin-left: 10%;
+	margin-left: 9%;
 	margin-right: 10%;
 }
 
@@ -56,4 +84,28 @@ p {
 .perky-footer{
   padding-top: 15px;
   width: 80%;
+}
+
+@media (max-width: 650px) {
+	#card-img-1 {
+		float: none;
+	}
+
+	#card-img-2 {
+		float: none;
+	}
+
+	.customers1 {
+		margin-left: 0 !important;
+	}
+
+	.customers2 {
+		margin-right: 0 !important; 
+	}
+
+	#workers {
+		margin-left: 0 !important;
+		padding-left: 20px;
+		padding-right: 28px;
+	}
 }
