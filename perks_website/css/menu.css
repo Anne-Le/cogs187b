@@ -1,3 +1,9 @@
+@media (min-width: 800px) {
+    .row {
+        font-size: 20px;
+    }
+}
+
 .table-sm th, .table-sm td {
     background-color: #8D816E;
     color: white;
@@ -7,9 +13,9 @@
     text-align: center;
 }
 
-
 .white-background {
-    background-color: rgb(76, 116, 60);
+    /*background-color: rgb(76, 116, 60);*/
+    border: 2px solid white;
     padding: 20px;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
@@ -17,6 +23,9 @@
     height: fit-content;
     padding-top: 20px;
     font-weight: bold;
+    /*centers the header*/
+    margin: auto;
+    /*text-decoration: underline;*/
 }
 
 
@@ -25,10 +34,18 @@
     color: white;
     /*border-bottom: 1px solid rgba(204, 204, 204, 0.692);*/
     border-bottom: 1px solid rgba(77, 58, 28, 0.205);
+    padding-top: 2px;
 }
 
 .row {
     width: auto !important;
+    /*added margin to fix row*/
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+    font-family: 'Scope One', serif !important;
+    /*font-family: 'Raleway', sans-serif !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-family: 'Libre Baskerville', serif !important;*/
 }
 
 .rowOuter {
