@@ -10,6 +10,9 @@ p {
 #workers {
 	margin-left: 15%;
 	width: auto;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	float: right;
 }
 
 #card-img-1 {
@@ -17,6 +20,7 @@ p {
 	height: auto;
 	margin-left: 1%;
 	float: right;
+	padding-top: 3%;
 }
 
 #card-img-2 {
@@ -24,6 +28,14 @@ p {
 	height: auto;
 	margin-right: 1%;
 	float: left;
+	padding-top: 3%;
+}
+
+.aboutus {
+	text-align: left;
+	margin-right: 15% !important;
+	margin-top: 10%;
+	margin-bottom: 15%;
 }
 
 .customers1 {
@@ -95,6 +107,11 @@ p {
 		float: none;
 	}
 
+	.aboutus {
+		margin-right: 0 !important;
+		margin-top: 0;
+	}
+
 	.customers1 {
 		margin-left: 0 !important;
 	}
@@ -107,5 +124,6 @@ p {
 		margin-left: 0 !important;
 		padding-left: 20px;
 		padding-right: 28px;
+		float: none;
 	}
 }
