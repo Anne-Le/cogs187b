@@ -1,18 +1,17 @@
 
-p {
+/* p {
 	padding-top: 1%;
 	padding-bottom: 3%;
 	padding-left: 10%;
 	padding-right: 10%;
 
+} */
+.vcenter{
+	padding-top: 80px;
 }
 
 #workers {
-	margin-left: 15%;
-	width: auto;
-	padding-top: 3%;
-	padding-bottom: 3%;
-	float: right;
+	width:100%;
 }
 
 #card-img-1 {
@@ -55,30 +54,15 @@ p {
 
 .brown-bg{
 	background-color: #4D3A1C;
-	color: white;
+	color:white;
 	padding: 20px;
-	margin-left: 10%;
-	margin-right: 10%;
 	text-transform: uppercase;
 }
 
-.h2-brown-bg {
-	background-color: #4D3A1C;
+.green-bg{
+	background-color: #8D816E;
 	color:white;
-	padding: 10px;
-	margin-left: 10%;
-	margin-right: 9%;
-}
-
-
-.h2-brown-bg-2 {
-	float: middle;
-	background-color: #4D3A1C;
-	color: white;
-	padding: 10px;
-	width: 100%;
-	margin-left: 9%;
-	margin-right: 10%;
+	padding: 20px;
 }
 
 #centered-text{
@@ -117,7 +101,7 @@ p {
 	}
 
 	.customers2 {
-		margin-right: 0 !important; 
+		margin-right: 0 !important;
 	}
 
 	#workers {
@@ -125,5 +109,10 @@ p {
 		padding-left: 20px;
 		padding-right: 28px;
 		float: none;
+	}
+
+	.vcenter{
+		padding-top: 0px;
+		padding-bottom: 15px;
 	}
 }
