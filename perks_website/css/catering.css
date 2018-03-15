@@ -1,0 +1,57 @@
+#centered-text{
+	text-align: center;
+}
+
+.brown-bg{
+	background-color: #4D3A1C;
+	color:white;
+	padding: 20px;
+	text-transform: uppercase;
+}
+
+.button{
+  font-family: 'Scope One', serif;
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 8px;
+  background-color: green;
+  border-radius: 5px;
+  width: 300px;
+
+  align-content: center;
+  margin: auto;
+  cursor: pointer;
+
+}
+
+.button:hover{
+  background-color: #006400;
+}
+
+.brown-font{
+	color: #4D3A1C;
+}
+
+
+.contact-form{
+	padding-top: 25px;
+	justify-content: flex-start;
+}
+
+.con_image{
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+
+#centered-text a:hover {
+  cursor: pointer;
+  color: white;
+}
+
+
+.perky-footer{
+  padding-top: 15px;
+  width: 80%;
+}
