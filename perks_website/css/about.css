@@ -14,6 +14,10 @@
 	width:100%;
 }
 
+.about-image{
+	width: 100%;
+}
+
 #card-img-1 {
 	width: 83%;
 	height: auto;
@@ -28,6 +32,11 @@
 	margin-right: 1%;
 	float: left;
 	padding-top: 3%;
+}
+
+.about-text{
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .aboutus {
