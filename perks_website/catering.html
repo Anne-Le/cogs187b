@@ -71,7 +71,7 @@
 
     <div class="row">
       <div class="col-lg-12" id="centered-text">
-        <h3 class="text-center"> Let us take care of your catering needs! </h3>
+        <h3 class="text-center"> Let us take care of your catering needs!</h3>
 
         <p> Whether it’s breakfast, lunch or a mid-day gathering, include a scrumptious selection of muffins, cakes, tarts, cookies and bars. Perks is your ideal partner for every size meeting and department get together.</p>
       </div>
@@ -82,12 +82,11 @@
     <div class="container">
     <br>
       <div class="row">
-        <div class="col-sm-6 mb-4 text-right">
+        <div class="col-md-6 mb-4 text-right" id="centered-text">
           <a href="https://drive.google.com/file/d/1Kms71yxLpr_3Acn-uXlHeedCL_6gwhbN/view"><button class="button">Catering Menu</button></a>
         </div>
-
-        <div class="col-sm-6 mb-4 text-left">
-            <a href="https://goo.gl/forms/oSgvVmlBYmmKE0wj2"><button class="button">Inquiries</button></a>
+        <div class="col-md-6 mb-4 text-left" id="centered-text">
+            <a href="#"><button type="button" class="button" data-toggle="modal" data-target="#inquiry-form">Inquiries</button></a>
         </div>
       </div>
     </div>
@@ -185,6 +184,51 @@
             </div>
           <!-- /.container -->
         </footer>
+
+
+        <!-- inquiry-form modal -->
+        <div id="inquiry-form" class="modal fade">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header row brown-bg">
+                <button type="button" class="form-btn" data-dismiss="modal"> &times;</button> 
+              <div class="container row">           
+                  <h4 class="modal-title white" id="centered-text"> Tell Us About Your <br>Catering Inquiry!</h4>
+              </div>
+              </div>
+              <div class="modal-body">
+                <h5 class="brown-font">First and last name</h5>
+                <input type="text" class="form-control" required data-validation-required-message="Please enter your name.">
+                <h5 class="brown-font">Email</h5>
+                <input type="Email" class="form-control">
+                <h5 class="brown-font">Phone number</h5>
+                <input type="tel" class="form-control" required data-validation-required-message="Please enter a phone number.">
+                <h5 class="brown-font">Department</h5>
+                <input type="text" class="form-control">
+                <h5 class="brown-font">Event date</h5>
+                <input type="date" class="form-control">
+                <h5 class="brown-font">Event time</h5>
+                <input type="time" class="form-control">
+                <h5 class="brown-font">Number of people</h5>
+                <input type="number" class="form-control">
+                <h5 class="brown-font">Type of event</h5>
+                <form>
+                  <input type="radio" value="meeting"> Meeting<br>
+                  <input type="radio" value="fundraiser"> Fundraiser<br>
+                  <input type="radio" value="social-event"> Social Event<br>
+                  <input type="radio" value="other"> Other
+                  <input type="text" class="form-control" id="input-txt">
+                </form>
+                <h5 class="brown-font">Additional information</h5>
+                <textarea class="form-control" rows="6" style="resize: none"></textarea>
+              </div>
+              <div class="modal-footer">
+                <button type="Submit" class="form-btn" data-dismiss="modal">Submit Inquiry</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
 
         <!-- Bootstrap core JavaScript -->
         <script src="vendor/jquery/jquery.min.js"></script>

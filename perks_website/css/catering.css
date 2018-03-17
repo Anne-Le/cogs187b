@@ -14,14 +14,15 @@
   color: white;
   font-size: 25px;
   text-transform: uppercase;
-  padding: 8px;
   background-color: green;
   border-radius: 5px;
-  width: 300px;
-  align-content: center;
+  width: 100%;
+  max-width: 290px;
+  padding: 8px;
   margin: auto;
   cursor: pointer;
-
+  display: block;
+  vertical-align: middle;
 }
 
 .button:hover{
@@ -64,6 +65,45 @@
 
 .white{
 	color: white;
+}
+
+.form-btn{
+  margin-bottom: 10px; 
+  background-color: green;
+  border-radius: 3px;
+  color:white;
+  padding: 3px 10px;
+  cursor: pointer;
+  justify-content: right;
+  border: none;
+}
+
+.form-btn:hover{
+  background-color: #006400;
+}
+
+form{
+  color: #595959;
+}
+
+.modal-body h5 {
+  padding-top: 17px;
+  margin-bottom: 0px;
+}
+
+#input-txt{
+  display: inline;
+  width: 50%;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#brown-bg{
+  background-color: 
 }
 
 .asked-qs{
