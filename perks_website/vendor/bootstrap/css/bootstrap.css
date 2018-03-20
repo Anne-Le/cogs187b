@@ -5422,7 +5422,7 @@ button.close {
 
 .modal-dialog {
   position: relative;
-  width: auto;
+  width:auto; 
   margin: 0.5rem;
   pointer-events: none;
 }
@@ -5495,7 +5495,7 @@ button.close {
   align-items: flex-start;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: left;
   padding: 1rem;
   border-bottom: 1px solid #e9ecef;
   border-top-left-radius: 0.3rem;
@@ -5552,7 +5552,7 @@ button.close {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 600px;
     margin: 1.75rem auto;
   }
   .modal-dialog-centered {
